@@ -4,11 +4,11 @@ import Project from "../components/Project";
 
 const Projects = () => {
     return ( 
-        <section className="py-20 w-5/6">
+        <section id="projects" className="py-20 w-5/6">
             <SectionTitle title="Projects"/>
             {
                 items.map(project => (
-                    <Project data={project}/>
+                    <Project key={ project.title } data={ project }/>
                 ))
             }
         </section>

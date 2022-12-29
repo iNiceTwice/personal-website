@@ -17,7 +17,7 @@ const Project = ({ data }) => {
                             <BsEyeFill className="hidden group-hover:block text-zinc-100" size={35}/>
                             <p className="hidden group-hover:block text-zinc-100">See Demo</p>
                         </div>
-                        <Image fill objectPosition="center" src={ data.img }/>
+                        <Image alt={ data.title } fill objectFit="cover" objectPosition="center" src={ data.img }/>
                     </a>
                 </div>
                 <div className="w-full lg:w-7/12 flex flex-col gap-4">
@@ -31,7 +31,7 @@ const Project = ({ data }) => {
                         { data.description }
                         <br/>
                         <br/>
-                        <p className="italic text-rose-800">
+                        <p className="italic text-rose-900">
                             { data.tech}
                         </p>
                     </div>

@@ -31,13 +31,13 @@ const Nav = () => {
                         </Link>
                         <ul className="hidden sm:flex items-center gap-x-4 mr-6 text-lg text-slate-800/90">
                             <li>
-                                <a className="transition-all hover:bg-rose-800 py-1 px-3 hover:text-white" href="#about">About</a>
+                                <a className="transition-all hover:bg-rose-900 py-1 px-3 hover:text-white" href="#about">About</a>
                             </li>
                             <li>
-                                <a className="transition-all hover:bg-rose-800 py-1 px-3 hover:text-white" href="#projects">Projects</a>
+                                <a className="transition-all hover:bg-rose-900 py-1 px-3 hover:text-white" href="#projects">Projects</a>
                             </li>
                             <li>
-                                <a className="transition-all hover:bg-rose-800 py-1 px-3 hover:text-white" href="#contact">Contact</a>
+                                <a className="transition-all hover:bg-rose-900 py-1 px-3 hover:text-white" href="#contact">Contact</a>
                             </li>
                         </ul>
                         <button
@@ -56,25 +56,25 @@ const Nav = () => {
                                     <GrClose size={15}/>
                                 </button>
                             </div>
-                            <div className="flex flex-col items-center text-2xl gap-y-4 pt-16">
+                            <div className="playfair flex flex-col items-center text-3xl gap-y-4 pt-16">
                                 <a
                                     href="#about" 
                                     onClick={ handleOnClick } 
-                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-800 hover:text-white cursor-pointer"
+                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-900 hover:text-white cursor-pointer"
                                 >
                                     About
                                 </a>
                                 <a
                                     href="#projects" 
                                     onClick={ handleOnClick } 
-                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-800 hover:text-white cursor-pointer"
+                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-900 hover:text-white cursor-pointer"
                                 >
                                     Projects
                                 </a>
                                 <a
                                     href="#contact" 
                                     onClick={ handleOnClick } 
-                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-800 hover:text-white cursor-pointer"
+                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-900 hover:text-white cursor-pointer"
                                 >
                                     Contact
                                 </a>
