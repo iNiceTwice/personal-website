@@ -44,7 +44,8 @@ const Contact = ({ mailToken }) => {
 
     
     return ( 
-        <section className="py-20 w-5/6 flex flex-col items-center" id="contact">
+        <section className="py-20 w-5/6 flex flex-col items-center">
+            <span id="contact" className='relative top-[-250px]'></span>
             <SectionTitle title="Contact" />
             <form ref={form} onSubmit={ handleSubmit } className="flex flex-col mt-8 w-full lg:w-5/6">
                 <div className="flex lg:flex-row flex-col w-full gap-4">
@@ -84,7 +85,7 @@ const Contact = ({ mailToken }) => {
                     />
                     { touched.message && Boolean(errors.message) && <span className="ml-4 mb-1 -mt-1 text-sm text-rose-900 w-full">{ errors.message }</span> }
                 </div>
-                <button type="submit" className="mt-2 w-full p-2 bg-rose-900 text-white"> Send </button>
+                <button type="submit" className="mt-2 w-full p-2 bg-rose-900 hover:bg-rose-900/90 text-white"> Send </button>
             </form>            
         </section>
      );
