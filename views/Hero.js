@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { BsGithub, BsLinkedin } from "react-icons/bs"
-import { MdInsertDriveFile } from "react-icons/md"
+import { HiDownload } from "react-icons/HI"
 
 const Hero = () => {
     return ( 
@@ -10,10 +10,13 @@ const Hero = () => {
                     <h2>Hi,</h2>
                     <h2>I'm <span className="text-rose-800 italic">Martín</span></h2>
                     <h2>web developer</h2>
-                    <div className="flex gap-4 mt-6">
+                    <div className="flex gap-4 mt-6 items-center">
                         <BsLinkedin className="hover:scale-105 cursor-pointer text-[#0e76a8]" size={30}/>
                         <BsGithub className="hover:scale-105 cursor-pointer" size={30}/>
-                        <MdInsertDriveFile className="hover:scale-105 cursor-pointer text-[#4688F4]" size={30}/>
+                        <a href="https://drive.google.com/file/d/1sIEj6f7wONCw3b84R7jNwV-FmZNaUDrI/view?usp=share_link" target="_blank" className="text-base text-white font-sans flex justify-center items-center p-3 bg-rose-800 hover:bg-rose-800/90 transition-colors">
+                            My resume
+                            <HiDownload className="ml-2 cursor-pointer text-white" size={20}/>
+                        </a>
                     </div>
                 </div>
             </div>

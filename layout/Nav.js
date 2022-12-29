@@ -27,7 +27,7 @@ const Nav = () => {
                 <div className="w-11/12 md:w-5/6 py-4 bg-zinc-100 shadow-md">
                     <div className="flex justify-between ml-6">
                         <Link href="/">
-                            <Image height={35} width={35} objectFit="contain" src="/assets/logo_min.png" />
+                            <Image height={35} width={35} objectFit="contain" src="/assets/logo_min.svg" />
                         </Link>
                         <ul className="hidden sm:flex items-center gap-x-4 mr-6 text-lg text-slate-800/90">
                             <li>
@@ -60,21 +60,21 @@ const Nav = () => {
                                 <a
                                     href="#about" 
                                     onClick={ handleOnClick } 
-                                    className="text-slate-800/80 hover:text-slate-800 cursor-pointer"
+                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-800 hover:text-white cursor-pointer"
                                 >
                                     About
                                 </a>
                                 <a
                                     href="#projects" 
                                     onClick={ handleOnClick } 
-                                    className="text-slate-800/80 hover:text-slate-800 cursor-pointer"
+                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-800 hover:text-white cursor-pointer"
                                 >
                                     Projects
                                 </a>
                                 <a
                                     href="#contact" 
                                     onClick={ handleOnClick } 
-                                    className="text-slate-800/80 hover:text-slate-800 cursor-pointer"
+                                    className="py-1 px-3 text-slate-800/80 transition-all hover:bg-rose-800 hover:text-white cursor-pointer"
                                 >
                                     Contact
                                 </a>

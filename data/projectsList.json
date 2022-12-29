@@ -1,0 +1,18 @@
+[   
+    {
+        "title":"Populum ecommerce clone",
+        "img":"https://i.imgur.com/lKCerZp.png",
+        "link":"https://ecommerce-clone-mp.vercel.app",
+        "tech":" HTML, CSS, React, Redux, Resposive Design, Tailwind, Rest-Api, Nextjs, Nodejs, Express, MongoDB",
+        "description":"You can buy single products or get a customizable subscription bundle in this ecommerce clone of cbd prodcuts, checkout more features at my repository readme.",
+        "repository":"https://github.com/iNiceTwice/nextjs-ecommerce"
+    },
+    {
+        "title":"Where in the world? - Frontend Mentor Challenge",
+        "img":"https://i.imgur.com/irOttUS.png",
+        "link":"https://countries-app-mp.netlify.app",
+        "tech":" HTML, CSS, React, Redux, Resposive Design, Rest-Api.",
+        "description":"Search countries by name or region! Design and idea by: www.frontendmentor.io",
+        "repository":"https://github.com/iNiceTwice/flags-frontend"
+    }
+]

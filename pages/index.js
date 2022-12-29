@@ -1,6 +1,7 @@
 
 import About from "../views/About"
 import Hero from "../views/Hero"
+import Projects from "../views/Projects"
 import Skills from "../views/Skills"
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Skills/>
+      <Projects/>
     </main>
   )
 }

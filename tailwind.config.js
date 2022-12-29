@@ -11,8 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        main:"#5E376D",
-        secondary:"#EAD70B"
+        dark:"#1A1919"
       },
       fontFamily:{
         sans:["Hind Madurai, sans-serif;"],
