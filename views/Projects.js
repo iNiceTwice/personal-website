@@ -5,7 +5,7 @@ import Project from "../components/Project";
 const Projects = () => {
     return ( 
         <section className="py-20 w-5/6">
-            <span id="projects" className='relative top-[-200px]'></span>
+            <span id="projects" className='relative top-[-100px] lg:top-[-200px]'></span>
             <SectionTitle title="Projects"/>
             {
                 items.map(project => (

@@ -23,7 +23,7 @@ const Nav = () => {
 
     return ( 
         <>
-            <div className="fixed flex justify-center mt-8 w-full z-50">
+            <motion.div initial={{opacity:0, y:-50}} transition={ {delay:0.5, duration:0.5}} animate={{opacity:1,y:0}} className="fixed flex justify-center mt-8 w-full z-50">
                 <div className="w-11/12 md:w-5/6 py-4 bg-zinc-100 shadow-md">
                     <div className="flex justify-between ml-6">
                         <Link href="/">
@@ -43,7 +43,7 @@ const Nav = () => {
                         <button
                             onClick={ handleOnClick }  
                             className="sm:hidden focus:bg-zinc-200/80 transition-all p-2 rounded-full mr-6 flex items-center">
-                            <RxHamburgerMenu height={25}/>
+                            <RxHamburgerMenu size={20}/>
                         </button>
                         <motion.div 
                             animate={ menu ? "open" : "closed" }
@@ -82,7 +82,7 @@ const Nav = () => {
                         </motion.div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </>
      );
 }

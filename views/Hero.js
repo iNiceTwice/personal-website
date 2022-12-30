@@ -1,33 +1,39 @@
 import Image from "next/image";
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { HiDownload } from "react-icons/HI"
+import { motion } from "framer-motion"
+import Tooltip from "../components/Tooltip";
 
 const Hero = () => {
     return ( 
         <section className="h-screen w-full flex flex-col-reverse lg:flex-row justify-center gap-10 lg:gap-20">
-            <div className="flex flex-row-reverse justify-center lg:justify-start items-center playfair text-5xl lg:text-7xl">
+            <div className="flex flex-row-reverse justify-center lg:justify-start items-center playfair text-4xl lg:text-7xl">
                 <div>
-                    <h2>Hi,</h2>
-                    <h2>I'm <span className="text-rose-900 italic">Martín</span></h2>
-                    <h2>web developer</h2>
-                    <div className="flex gap-4 mt-6 items-center">
+                    <motion.h2 initial={{opacity:0, x:-50}} transition={{type:"tween",delay:0.5, duration:0.5}} animate={{opacity:1,x:0}}>Hi,</motion.h2>
+                    <motion.h2 initial={{opacity:0, x:-50}} transition={{type:"tween",delay:0.6, duration:0.5}} animate={{opacity:1,x:0}}>I'm <span className="text-rose-900 italic">Martín</span></motion.h2>
+                    <motion.h2 initial={{opacity:0, x:-50}} transition={{type:"tween",delay:0.7, duration:0.5}} animate={{opacity:1,x:0}}>web developer.</motion.h2>
+                    <motion.div initial={{opacity:0, x:-50}} transition={{type:"tween",delay:0.8, duration:0.5}} animate={{opacity:1,x:0}} className="flex gap-4 mt-6 items-center">
                         <a href="https://www.linkedin.com/in/martin-planiscig/" target="_blank">
-                            <BsLinkedin className="hover:scale-105 cursor-pointer text-[#0e76a8]" size={30}/>
+                            <Tooltip text="LinkedIn">
+                                <BsLinkedin className="hover:scale-105 cursor-pointer text-[#0e76a8]" size={30}/>
+                            </Tooltip>
                         </a>
                         <a href="https://github.com/iNiceTwice" target="_blank">
-                            <BsGithub className="hover:scale-105 cursor-pointer" size={30}/>
+                            <Tooltip text="Github">
+                                <BsGithub className="hover:scale-105 cursor-pointer" size={30}/>
+                            </Tooltip>
                         </a>
                         <a href="https://drive.google.com/file/d/1sIEj6f7wONCw3b84R7jNwV-FmZNaUDrI/view?usp=share_link" target="_blank" className="text-base text-white font-sans flex justify-center items-center p-3 bg-rose-800 hover:bg-rose-800/90 transition-colors">
                             My resume
                             <HiDownload className="ml-2 cursor-pointer text-white" size={20}/>
                         </a>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
-            <div className="flex justify-center items-center lg:justify-start lg:pt-0 pt-20">
-                <div className="relative h-[20rem] w-[20rem] lg:h-[30rem] lg:w-[30rem] rounded-full overflow-hidden">
+            <div className="flex justify-center items-center lg:justify-start lg:pt-0 pt-32">
+                <motion.div initial={{opacity:0, x:50}} transition={{delay:0.5, duration:0.5}} animate={{opacity:1,x:0}}  className="relative h-[18rem] w-[18rem] lg:h-[30rem] lg:w-[30rem] rounded-full overflow-hidden">
                     <Image fill src="/assets/pfp.png"/>
-                </div>
+                </motion.div>
             </div>
         </section>
      );

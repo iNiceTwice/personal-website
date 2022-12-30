@@ -6,9 +6,9 @@ import { toast } from "react-toastify";
 import emailjs from '@emailjs/browser';
 
 const contactSchema = yup.object().shape({
-    name: yup.string().min(4,"Mínimo 4 caracteres.").max(30,"Máximo 30 caracteres.").required("Completa este campo."),
-    email:yup.string().email("Email inválido.").required("Completa este campo."),
-    message: yup.string().min(4,"Mínimo 4 caracteres.").max(600,"Máximo 600 caracteres.").required("Completa este campo."),
+    name: yup.string().min(3,"At least 4 characters.").max(30,"Max 30 characters.").required("This field is required."),
+    email:yup.string().email("Invalid email.").required("This field is required."),
+    message: yup.string().min(4,"At least 4 characters.").max(600,"Max 600 characters.").required("This field is required."),
 })
 
 const Contact = ({ mailToken }) => {
@@ -45,14 +45,14 @@ const Contact = ({ mailToken }) => {
     
     return ( 
         <section className="py-20 w-5/6 flex flex-col items-center">
-            <span id="contact" className='relative top-[-250px]'></span>
-            <SectionTitle title="Contact" />
+            <span id="contact" className='relative top-[-150px] lg:top-[-250px]'></span>
+            <SectionTitle title="Contact me" />
             <form ref={form} onSubmit={ handleSubmit } className="flex flex-col mt-8 w-full lg:w-5/6">
                 <div className="flex lg:flex-row flex-col w-full gap-4">
                     <div className="flex flex-col w-full">
                         <input 
                             onChange={ handleChange }
-                            className="outline-none p-2 w-full shadow-md" 
+                            className="outline-none px-2 py-3 w-full shadow-md" 
                             placeholder="Name"
                             id="name" 
                             name="name" 
@@ -63,7 +63,7 @@ const Contact = ({ mailToken }) => {
                     <div className="flex flex-col w-full">
                         <input 
                             onChange={ handleChange }
-                            className="outline-none p-2 w-full shadow-md" 
+                            className="outline-none px-2 py-3 w-full shadow-md" 
                             placeholder="Email"
                             id="email" 
                             name="email" 

@@ -2,6 +2,7 @@ import Image from "next/image"
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { MdInsertDriveFile } from "react-icons/md"
 import { IoMdMail } from "react-icons/io"
+import Tooltip from "../components/Tooltip"
 
 const Footer = () => {
     return ( 
@@ -16,16 +17,24 @@ const Footer = () => {
                 <p>Email: planiscig.martin@gmail.com</p>
                 <div className="flex items-center gap-3 mt-2">
                     <a href="https://www.linkedin.com/in/martin-planiscig/" target="_blank">
-                        <BsLinkedin className="hover:scale-110" size={20} />
+                        <Tooltip text="LinkedIn">
+                            <BsLinkedin className="hover:scale-110" size={20} />
+                        </Tooltip>
                     </a>
                     <a href="https://github.com/iNiceTwice" target="_blank">
-                        <BsGithub className="hover:scale-110" size={20} />
+                        <Tooltip text="Github">
+                            <BsGithub className="hover:scale-110" size={20} />
+                        </Tooltip>
                     </a>
                     <a href="mailto:planiscig.martin@gmail.com" target="_blank">
-                        <IoMdMail className="hover:scale-110" size={20} />
+                        <Tooltip text="Email">
+                           <IoMdMail className="hover:scale-110" size={20} />
+                        </Tooltip>
                     </a>
                     <a href="https://drive.google.com/file/d/1sIEj6f7wONCw3b84R7jNwV-FmZNaUDrI/view?usp=share_link" target="_blank">
-                        <MdInsertDriveFile className="hover:scale-110" size={20} />
+                        <Tooltip text="My resume">
+                            <MdInsertDriveFile className="hover:scale-110" size={20} />
+                        </Tooltip>
                     </a>
                 </div>
             </div>
