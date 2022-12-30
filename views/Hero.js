@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { BsGithub, BsLinkedin } from "react-icons/bs"
-import { HiDownload } from "react-icons/HI"
+import { HiDownload } from "react-icons/hi"
 import { motion } from "framer-motion"
 import Tooltip from "../components/Tooltip";
 
