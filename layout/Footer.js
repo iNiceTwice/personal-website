@@ -16,22 +16,22 @@ const Footer = () => {
                 <p>Phone: +54 9 1130582058</p>
                 <p>Email: planiscig.martin@gmail.com</p>
                 <div className="flex items-center gap-3 mt-2">
-                    <a href="https://www.linkedin.com/in/martin-planiscig/" target="_blank">
+                    <a id="Linkedin" href="https://www.linkedin.com/in/martin-planiscig/" target="_blank">
                         <Tooltip text="LinkedIn">
                             <BsLinkedin className="hover:scale-110" size={20} />
                         </Tooltip>
                     </a>
-                    <a href="https://github.com/iNiceTwice" target="_blank">
+                    <a id="Github" href="https://github.com/iNiceTwice" target="_blank" rel="noreferrer">
                         <Tooltip text="Github">
                             <BsGithub className="hover:scale-110" size={20} />
                         </Tooltip>
                     </a>
-                    <a href="mailto:planiscig.martin@gmail.com" target="_blank">
+                    <a id="Email" href="mailto:planiscig.martin@gmail.com" target="_blank" rel="noreferrer">
                         <Tooltip text="Email">
                            <IoMdMail className="hover:scale-110" size={20} />
                         </Tooltip>
                     </a>
-                    <a href="https://drive.google.com/file/d/1sIEj6f7wONCw3b84R7jNwV-FmZNaUDrI/view?usp=share_link" target="_blank">
+                    <a id="My resume" href="https://drive.google.com/file/d/1sIEj6f7wONCw3b84R7jNwV-FmZNaUDrI/view?usp=share_link" target="_blank" rel="noreferrer">
                         <Tooltip text="My resume">
                             <MdInsertDriveFile className="hover:scale-110" size={20} />
                         </Tooltip>
