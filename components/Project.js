@@ -21,7 +21,7 @@ const Project = ({ data }) => {
                         <Image alt={ data.title } fill objectFit="cover" objectPosition="center" src={ data.img }/>
                     </a>
                 </motion.div>
-                <div className="w-full lg:w-7/12 flex flex-col gap-4">
+                <div className="w-full lg:w-7/12 flex flex-col gap-2">
                     <motion.div initial={{opacity:0, width:0}} whileInView={{opacity:1,width:"100%"}} viewport={{once:true, amount:1}} transition={{type:"tween", duration:1}} className="hidden w-full lg:flex justify-between items-center p-4 bg-dark text-white shadow-md">
                         <motion.p initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true, amount:0.5}} transition={{type:"tween", delay:0.8}}>
                             { data.title}
@@ -30,11 +30,11 @@ const Project = ({ data }) => {
                             <BsGithub size={20}/>
                         </a>
                     </motion.div>
-                    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:false, amount:1}} transition={{type:"tween", duration:0.5}} className="p-4 h-full bg-zinc-100 shadow-md">
+                    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true, amount:1}} transition={{type:"tween", duration:0.5}} className="flex flex-col justify-between p-4 h-full bg-zinc-100 shadow-md">
                         { data.description }
                         <br/>
                         <br/>
-                        <p className="italic text-rose-900">
+                        <p className="italic p-3 bg-zinc-200/60 text-rose-900">
                             { data.tech}
                         </p>
                     </motion.div>
