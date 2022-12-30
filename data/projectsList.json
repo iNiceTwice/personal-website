@@ -14,5 +14,13 @@
         "tech":" HTML, CSS, React, Redux, Resposive Design, Rest-Api.",
         "description":"Search countries by name or region! Design and idea by: www.frontendmentor.io",
         "repository":"https://github.com/iNiceTwice/flags-frontend"
+    },
+    {
+        "title":"My personal website",
+        "img":"https://i.imgur.com/VxsDcG3.png",
+        "link":"https://martinplaniscig.netlify.app",
+        "tech":" HTML, CSS, React, Nextjs, Resposive Design, Tailwind, Framer Motion.",
+        "description":"My personal portfolio, the essence of my tastes and styles in web development.",
+        "repository":"https://github.com/iNiceTwice/personal-website"
     }
 ]
