@@ -11,7 +11,7 @@
         "title":"Where in the world? - Frontend Mentor Challenge",
         "img":"https://i.imgur.com/irOttUS.png",
         "link":"https://countries-app-mp.netlify.app",
-        "tech":" HTML, CSS, React, Redux, Resposive Design, Rest-Api.",
+        "tech":" HTML, CSS, React, Redux, Resposive Design, Material-UI, Rest-Api.",
         "description":"Search countries by name or region! Design and idea by: www.frontendmentor.io",
         "repository":"https://github.com/iNiceTwice/flags-frontend"
     },
