@@ -22,5 +22,13 @@
         "tech":" HTML, CSS, React, Nextjs, Resposive Design, Tailwind, Framer Motion.",
         "description":"My personal portfolio, the essence of my tastes and styles in web development.",
         "repository":"https://github.com/iNiceTwice/personal-website"
+    },
+    {
+        "title":"Challenge Frontend Jr by Greydive",
+        "img":"https://i.imgur.com/AMuMqo8.png",
+        "link":"https://greydive-challenge-mp.netlify.app",
+        "tech":" HTML, CSS, React, React Router, Resposive Design, Tailwind, Framer Motion, Firebase.",
+        "description":"Simple App where a form is created from a JSON and the form data is saved and displayed from firebase.",
+        "repository":"https://github.com/iNiceTwice/greydive-challenge"
     }
 ]
