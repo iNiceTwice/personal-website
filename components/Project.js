@@ -14,9 +14,9 @@ const Project = ({ data }) => {
                 </motion.div>
                 <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true, amount:1}} transition={{type:"tween", duration:0.5}} className="relative w-full lg:w-5/12 h-[14rem] lg:h-[20rem] shadow-md">
                     <a target="_blank" rel="noreferrer" href={ data.link }>
-                        <div className="group absolute flex flex-col justify-center items-center z-10 w-full h-full cursor-pointer transition-colors hover:bg-slate-800/40">
-                            <BsEyeFill className="hidden group-hover:block text-zinc-100" size={35}/>
-                            <p className="hidden group-hover:block text-zinc-100">See Demo</p>
+                        <div className="group absolute flex flex-col justify-center items-center z-10 w-full h-full cursor-pointer transition-colors lg:bg-transparent bg-slate-600/20 lg:hover:bg-slate-800/40">
+                            <BsEyeFill className="group-hover:block lg:hidden lg:group-hover:block text-zinc-100" size={35}/>
+                            <p className="group-hover:block lg:hidden lg:group-hover:block text-zinc-100">See Demo</p>
                         </div>
                         <Image alt={ data.title } fill objectFit="cover" objectPosition="center" src={ data.img }/>
                     </a>
