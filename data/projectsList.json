@@ -30,5 +30,13 @@
         "tech":" HTML, CSS, React, React Router, Resposive Design, Tailwind, Framer Motion, Firebase.",
         "description":"Simple App where a form is created from a JSON and the form data is saved and displayed from firebase.",
         "repository":"https://github.com/iNiceTwice/greydive-challenge"
+    },
+    {
+        "title":"Reity frontend clone",
+        "img":"https://i.imgur.com/mKhNHZ2.png",
+        "link":"https://reity-clone.vercel.app",
+        "tech":" HTML, CSS, React, Nextjs, Resposive Design, Tailwind, Rest-Api, MongoDB.",
+        "description":"Fully responsive frontend of a token-based imboliary, own api with MongoDB and server side rendering for requests.",
+        "repository":"https://github.com/iNiceTwice/reity-clone"
     }
 ]
