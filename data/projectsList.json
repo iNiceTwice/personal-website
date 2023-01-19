@@ -8,22 +8,6 @@
         "repository":"https://github.com/iNiceTwice/nextjs-ecommerce"
     },
     {
-        "title":"Where in the world? - Frontend Mentor Challenge",
-        "img":"https://i.imgur.com/irOttUS.png",
-        "link":"https://countries-app-mp.netlify.app",
-        "tech":" HTML, CSS, React, Redux, Resposive Design, Material-UI, Rest-Api.",
-        "description":"Search countries by name or region! Design and idea by: www.frontendmentor.io",
-        "repository":"https://github.com/iNiceTwice/flags-frontend"
-    },
-    {
-        "title":"My personal website",
-        "img":"https://i.imgur.com/VxsDcG3.png",
-        "link":"https://martinplaniscig.netlify.app",
-        "tech":" HTML, CSS, React, Nextjs, Resposive Design, Tailwind, Framer Motion.",
-        "description":"My personal portfolio, the essence of my tastes and styles in web development.",
-        "repository":"https://github.com/iNiceTwice/personal-website"
-    },
-    {
         "title":"Challenge Frontend Jr by Greydive",
         "img":"https://i.imgur.com/AMuMqo8.png",
         "link":"https://greydive-challenge-mp.netlify.app",
@@ -36,7 +20,23 @@
         "img":"https://i.imgur.com/mKhNHZ2.png",
         "link":"https://reity-clone.vercel.app",
         "tech":" HTML, CSS, React, Nextjs, Resposive Design, Tailwind, Rest-Api, MongoDB.",
-        "description":"Fully responsive frontend of a token-based imboliary, own api with MongoDB and server side rendering for requests.",
+        "description":"Fully responsive frontend clone of a token-based imboliary, own api with MongoDB and server side rendering for requests.",
         "repository":"https://github.com/iNiceTwice/reity-clone"
+    },
+    {
+        "title":"My personal website",
+        "img":"https://i.imgur.com/VxsDcG3.png",
+        "link":"https://martinplaniscig.netlify.app",
+        "tech":" HTML, CSS, React, Nextjs, Resposive Design, Tailwind, Framer Motion.",
+        "description":"My personal portfolio, the essence of my tastes and styles in web development.",
+        "repository":"https://github.com/iNiceTwice/personal-website"
+    },
+    {
+        "title":"Where in the world? - Frontend Mentor Challenge",
+        "img":"https://i.imgur.com/irOttUS.png",
+        "link":"https://countries-app-mp.netlify.app",
+        "tech":" HTML, CSS, React, Redux, Resposive Design, Material-UI, Rest-Api.",
+        "description":"Search countries by name or region! Design and idea by: www.frontendmentor.io",
+        "repository":"https://github.com/iNiceTwice/flags-frontend"
     }
 ]

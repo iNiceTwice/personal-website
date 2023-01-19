@@ -7,7 +7,7 @@ const Project = ({ data }) => {
         <>
             <div className="mt-8 w-full flex lg:flex-row flex-col gap-2">
                 <motion.div initial={{opacity:0, width:0}} whileInView={{opacity:1,width:"100%"}} viewport={{once:true, amount:1}} transition={{type:"tween", duration:1}} className="lg:hidden w-full flex justify-between items-center p-4 bg-dark text-white shadow-md">
-                    { data.title}
+                    { data.title }
                     <a target="_blank" href={ data.repository } rel="noreferrer" className="hover:scale-110">
                         <BsGithub size={20}/>
                     </a>
