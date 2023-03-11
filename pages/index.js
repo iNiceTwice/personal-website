@@ -11,8 +11,12 @@ export default function Home ({ mailToken }) {
       <Head>
         <title>Hey, welcome.</title>
         <meta name="description" content="Hi! I'm Martín, web developer." />
-        <meta property="og:title" content="My Portfolio" />
+        <meta property="og:title" content="My Portfolio - Martin Planiscig" />
         <meta property="og:image" content="https://i.imgur.com/VxsDcG3.png" />
+        <meta property="og:url" content='https://martinplaniscig.netlify.app/'/>
+        <meta property='og:image:width' content='1200' />
+        <meta property='og:image:height' content='627' />
+        <meta property="og:type" content='website'/>
         <link rel="icon" href="assets/favicon.ico" />
       </Head>
       <main className='flex flex-col justify-center items-center'>
