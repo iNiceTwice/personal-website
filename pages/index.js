@@ -11,6 +11,8 @@ export default function Home ({ mailToken }) {
       <Head>
         <title>Hey, welcome.</title>
         <meta name="description" content="Hi! I'm Martín, web developer." />
+        <meta property="og:title" content="My Portfolio" />
+        <meta property="og:image" content="https://i.imgur.com/VxsDcG3.png" />
         <link rel="icon" href="assets/favicon.ico" />
       </Head>
       <main className='flex flex-col justify-center items-center'>
