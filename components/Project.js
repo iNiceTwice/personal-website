@@ -12,7 +12,7 @@ const Project = ({ data }) => {
                         <BsGithub size={20}/>
                     </a>
                 </motion.div>
-                <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true, amount:1}} transition={{type:"tween", duration:0.5}} className="relative w-full lg:w-5/12 h-[14rem] lg:h-[20rem] shadow-md">
+                <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true, amount:1}} transition={{type:"tween", duration:0.5}} className="relative w-full lg:w-[35rem] h-[14rem] lg:h-[22rem] shadow-md">
                     <a target="_blank" rel="noreferrer" href={ data.link }>
                         <div className="group absolute flex flex-col justify-center items-center z-10 w-full h-full cursor-pointer transition-colors lg:bg-transparent bg-slate-600/20 lg:hover:bg-slate-800/40">
                             <BsEyeFill className="group-hover:block lg:hidden lg:group-hover:block text-zinc-100" size={35}/>

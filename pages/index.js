@@ -12,6 +12,7 @@ export default function Home ({ mailToken }) {
         <title>Hey, welcome.</title>
         <meta name="description" content="Hi! I'm Martín, web developer." />
         <meta property="og:title" content="My Portfolio - Martin Planiscig" />
+        <meta property="og:description" content="Hi! I'm Martín, I can make awasome websites with MERN stack." />
         <meta property="og:image" content="https://i.imgur.com/VxsDcG3.png" />
         <meta property="og:url" content='https://martinplaniscig.netlify.app/'/>
         <meta property='og:image:width' content='1200' />

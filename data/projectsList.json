@@ -1,27 +1,35 @@
 [   
     {
-        "title":"Populum ecommerce clone",
-        "img":"https://i.imgur.com/DtMZjrP.png",
-        "link":"https://ecommerce-clone-mp.vercel.app",
-        "tech":" HTML, CSS, React, Redux, Resposive Design, Tailwind, Rest-Api, Nextjs, Nodejs, Express, MongoDB",
-        "description":"You can buy single products or get a customizable subscription bundle in this ecommerce clone of cbd prodcuts, checkout more features at my repository readme.",
-        "repository":"https://github.com/iNiceTwice/nextjs-ecommerce"
+        "title":"Chat.io - Sockets based chat",
+        "img":"https://i.imgur.com/49GKUsr.png",
+        "link":"https://itschat-io.vercel.app",
+        "tech":" HTML, CSS, React, React-router,Typescript, Resposive Design, Tailwind, MaterialUI, Rest-Api, Nodejs, Express, MongoDB, Socket.io",
+        "description":"Fully responsive chat app. Includes the following features: In real time messages and notifications, Cookie/token based auth, Register/login features, Dark/Light themes, Add and filter contacts, Animations with framer motion, Unique avatar based on username, Emoji support, Database (MongoDB)",
+        "repository":"https://github.com/iNiceTwice/react-chat"
     },
     {
-        "title":"Challenge Frontend Jr by Greydive",
-        "img":"https://i.imgur.com/AMuMqo8.png",
-        "link":"https://greydive-challenge-mp.netlify.app",
-        "tech":" HTML, CSS, React, React Router, Resposive Design, Tailwind, Framer Motion, Firebase.",
-        "description":"Simple App where a form is created from a JSON and the form data is saved and displayed from firebase.",
-        "repository":"https://github.com/iNiceTwice/greydive-challenge"
+        "title":"Populum ecommerce clone",
+        "img":"https://i.imgur.com/lKCerZp.png",
+        "link":"https://ecommerce-clone-mp.vercel.app",
+        "tech":" HTML, CSS, React, Redux, Resposive Design, Tailwind, Rest-Api, Nextjs, Nodejs, Express, MongoDB",
+        "description":"I recreated the frontend and backend from scratch with the technologies I use. My goal was to achieve a fully responsive ecommerce in which you can: Register/log in, add/remove products from the cart, filter products and view their details, make purchases and subscriptions via Mercado Pago.",
+        "repository":"https://github.com/iNiceTwice/nextjs-ecommerce"
     },
     {
         "title":"Reity frontend clone",
         "img":"https://i.imgur.com/mKhNHZ2.png",
         "link":"https://reity-clone.vercel.app",
         "tech":" HTML, CSS, React, Nextjs, Resposive Design, Tailwind, Rest-Api, MongoDB.",
-        "description":"Fully responsive frontend clone of a token-based imboliary, own api with MongoDB and server side rendering for requests.",
+        "description":"Fully responsive frontend clone of a token-based real state agency, own api with MongoDB and server side rendering for requests.",
         "repository":"https://github.com/iNiceTwice/reity-clone"
+    },
+    {
+        "title":"Challenge Frontend Jr for Greydive",
+        "img":"https://i.imgur.com/AMuMqo8.png",
+        "link":"https://greydive-challenge-mp.netlify.app",
+        "tech":" HTML, CSS, React, React Router, Resposive Design, Tailwind, Framer Motion, Firebase.",
+        "description":"Simple App where a form is created from a JSON and the form data is saved and displayed from firebase.",
+        "repository":"https://github.com/iNiceTwice/greydive-challenge"
     },
     {
         "title":"My personal website",

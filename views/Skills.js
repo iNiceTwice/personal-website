@@ -1,6 +1,6 @@
 import SectionTitle from "../components/SectionTitle";
 import { BsFillBrushFill } from "react-icons/bs"
-import { SiAdobephotoshop, SiCanva, SiFigma, SiHtml5, SiTailwindcss, SiCss3, SiReact, SiNextdotjs, SiGit, SiVisualstudiocode, SiMaterialui, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiRedux, SiNpm, SiWebpack,SiMysql, SiPostman } from "react-icons/si"
+import { SiAdobephotoshop, SiCanva, SiFigma, SiHtml5, SiTailwindcss, SiCss3, SiReact, SiNextdotjs, SiGit, SiVisualstudiocode, SiMaterialui, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiRedux, SiNpm, SiWebpack,SiMysql, SiPostman, SiTypescript, SiFirebase } from "react-icons/si"
 import { TbApi } from "react-icons/tb"
 import { FiMonitor } from "react-icons/fi"
 import { FaServer } from "react-icons/fa"
@@ -57,6 +57,9 @@ const Skills = () => {
                             <Tooltip text="Reactjs">
                                 <SiReact className="text-[#61DBFB]" size={40}/>
                             </Tooltip>
+                            <Tooltip text="Typescript">
+                                <SiTypescript className="text-[#264de4]" size={40}/>
+                            </Tooltip>
                             <Tooltip text="Nextjs">
                                 <SiNextdotjs size={40}/>
                             </Tooltip>
@@ -102,6 +105,9 @@ const Skills = () => {
                             </Tooltip>
                             <Tooltip text="Express">
                                 <SiExpress size={40}/>
+                            </Tooltip>
+                            <Tooltip text="Firebase">
+                                <SiFirebase className="text-[#FFA611]" size={40}/>
                             </Tooltip>
                             <Tooltip text="MongoDB">
                                 <SiMongodb className="text-[#589636]" size={40}/>
