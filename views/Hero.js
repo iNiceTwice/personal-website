@@ -23,7 +23,7 @@ const Hero = () => {
                                 <BsGithub className="hover:scale-105 cursor-pointer" size={30}/>
                             </Tooltip>
                         </a>
-                        <a href="https://drive.google.com/file/d/1o0aUA9-cf3y1_d-hA_Sj-o1pR2AnBrdS/view?usp=share_link" target="_blank" rel="noreferrer" className="text-base text-white font-sans flex justify-center items-center p-3 bg-rose-800 hover:bg-rose-800/90 transition-colors">
+                        <a href="https://drive.google.com/file/d/1xizTAfk4DE5nzeqCu87-3PWP3wwIEL_n/view?usp=share_link" target="_blank" rel="noreferrer" className="text-base text-white font-sans flex justify-center items-center p-3 bg-rose-800 hover:bg-rose-800/90 transition-colors">
                             My resume
                             <HiDownload className="ml-2 cursor-pointer text-white" size={20}/>
                         </a>
